@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220FB0A3281FD3930021AB97 /* IGCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB0A2281FD3930021AB97 /* IGCollectionReusableView.swift */; };
+		220FB0A5282026110021AB97 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB0A4282026110021AB97 /* DetailTableViewController.swift */; };
+		220FB0A7282026260021AB97 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220FB0A6282026260021AB97 /* DetailTableViewCell.swift */; };
+		220FB0AA2820F7270021AB97 /* Fuzi in Frameworks */ = {isa = PBXBuildFile; productRef = 220FB0A92820F7270021AB97 /* Fuzi */; };
 		22BF3DC72815088F0018C563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF3DC62815088F0018C563 /* AppDelegate.swift */; };
 		22BF3DC92815088F0018C563 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF3DC82815088F0018C563 /* SceneDelegate.swift */; };
-		22BF3DCB2815088F0018C563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF3DCA2815088F0018C563 /* ViewController.swift */; };
 		22BF3DCE2815088F0018C563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BF3DCC2815088F0018C563 /* Main.storyboard */; };
 		22BF3DD0281508900018C563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BF3DCF281508900018C563 /* Assets.xcassets */; };
 		22BF3DD3281508900018C563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BF3DD1281508900018C563 /* LaunchScreen.storyboard */; };
+		22BF3DDB281537180018C563 /* IGCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF3DDA281537180018C563 /* IGCollectionViewController.swift */; };
+		22BF3DDD281558FF0018C563 /* IGCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF3DDC281558FF0018C563 /* IGCollectionViewCell.swift */; };
+		22BF3DDF28155C7A0018C563 /* InstagramResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF3DDE28155C7A0018C563 /* InstagramResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220FB0A2281FD3930021AB97 /* IGCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGCollectionReusableView.swift; sourceTree = "<group>"; };
+		220FB0A4282026110021AB97 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		220FB0A6282026260021AB97 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		22BF3DC32815088F0018C563 /* IGApiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGApiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BF3DC62815088F0018C563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22BF3DC82815088F0018C563 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22BF3DCA2815088F0018C563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22BF3DCD2815088F0018C563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22BF3DCF281508900018C563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22BF3DD2281508900018C563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22BF3DD4281508900018C563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BF3DDA281537180018C563 /* IGCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGCollectionViewController.swift; sourceTree = "<group>"; };
+		22BF3DDC281558FF0018C563 /* IGCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGCollectionViewCell.swift; sourceTree = "<group>"; };
+		22BF3DDE28155C7A0018C563 /* InstagramResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220FB0AA2820F7270021AB97 /* Fuzi in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,12 @@
 		22BF3DBA2815088F0018C563 = {
 			isa = PBXGroup;
 			children = (
+				22BF3DDE28155C7A0018C563 /* InstagramResponse.swift */,
+				220FB0A2281FD3930021AB97 /* IGCollectionReusableView.swift */,
+				22BF3DDA281537180018C563 /* IGCollectionViewController.swift */,
+				22BF3DDC281558FF0018C563 /* IGCollectionViewCell.swift */,
+				220FB0A4282026110021AB97 /* DetailTableViewController.swift */,
+				220FB0A6282026260021AB97 /* DetailTableViewCell.swift */,
 				22BF3DC52815088F0018C563 /* IGApiApp */,
 				22BF3DC42815088F0018C563 /* Products */,
 			);
@@ -58,7 +76,6 @@
 			children = (
 				22BF3DC62815088F0018C563 /* AppDelegate.swift */,
 				22BF3DC82815088F0018C563 /* SceneDelegate.swift */,
-				22BF3DCA2815088F0018C563 /* ViewController.swift */,
 				22BF3DCC2815088F0018C563 /* Main.storyboard */,
 				22BF3DCF281508900018C563 /* Assets.xcassets */,
 				22BF3DD1281508900018C563 /* LaunchScreen.storyboard */,
@@ -83,6 +100,9 @@
 			dependencies = (
 			);
 			name = IGApiApp;
+			packageProductDependencies = (
+				220FB0A92820F7270021AB97 /* Fuzi */,
+			);
 			productName = IGApiApp;
 			productReference = 22BF3DC32815088F0018C563 /* IGApiApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 22BF3DBA2815088F0018C563;
+			packageReferences = (
+				220FB0A82820F7270021AB97 /* XCRemoteSwiftPackageReference "Fuzi" */,
+			);
 			productRefGroup = 22BF3DC42815088F0018C563 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BF3DCB2815088F0018C563 /* ViewController.swift in Sources */,
+				220FB0A5282026110021AB97 /* DetailTableViewController.swift in Sources */,
+				22BF3DDD281558FF0018C563 /* IGCollectionViewCell.swift in Sources */,
+				220FB0A7282026260021AB97 /* DetailTableViewCell.swift in Sources */,
 				22BF3DC72815088F0018C563 /* AppDelegate.swift in Sources */,
 				22BF3DC92815088F0018C563 /* SceneDelegate.swift in Sources */,
+				22BF3DDB281537180018C563 /* IGCollectionViewController.swift in Sources */,
+				22BF3DDF28155C7A0018C563 /* InstagramResponse.swift in Sources */,
+				220FB0A3281FD3930021AB97 /* IGCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +386,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		220FB0A82820F7270021AB97 /* XCRemoteSwiftPackageReference "Fuzi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cezheng/Fuzi";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		220FB0A92820F7270021AB97 /* Fuzi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 220FB0A82820F7270021AB97 /* XCRemoteSwiftPackageReference "Fuzi" */;
+			productName = Fuzi;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 22BF3DBB2815088F0018C563 /* Project object */;
 }
